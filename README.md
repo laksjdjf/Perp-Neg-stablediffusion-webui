@@ -1,4 +1,5 @@
 # Perp-Neg-stablediffusion-webui
+（実験中）
 [Perp-Neg](https://github.com/Perp-Neg/Perp-Neg-stablediffusion)のwebui拡張です。インストールしてでてくるアコーディオン開いてenableにチェックを押すと起動します。
 
 以下のようにプロンプトを指定して、ネガティブプロンプトの欄を空欄にしてください。
