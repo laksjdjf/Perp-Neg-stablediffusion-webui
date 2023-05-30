@@ -8,6 +8,7 @@
 AND <negative_prompt> :-1.0
 ```
 
+Perp-Neg自体は3D画像の生成のための手法ですが、この拡張はその実装をする予定はありません。
 # CITIATION
 ```
 @article{armandpour2023re,
