@@ -30,7 +30,7 @@ class Script(scripts.Script):
         assert x.shape == y.shape == u.shape
         xu = x - u
         yu = y - u
-        # webui側でいらないuncondが足されるので、あらかじめuncondを足しておく
+        # webui側uncondが引かれてしまうので、あらかじめuncondを足しておく
         return xu - ((torch.mul(xu, yu).sum())/(torch.norm(yu)**2)) * yu + u
 
     def denoised_callback(self, params: CFGDenoisedParams):
